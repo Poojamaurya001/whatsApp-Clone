@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WhatsApp Clone</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body id="bg-img">
+  <div class="vh-100 vw-100" >
+    <div class="d-flex vh-50 justify-content-between fixed-top h-25  align-items-center navbar h-25">
+     <div class=" text-center">
+        <img title="Select Another dp" src="https://tse1.mm.bing.net/th?id=OIP.dg2rbBTay7ueHL23GXSQMgHaHa&pid=Api&P=0&h=180" class="img-fluid">
+        <div class="text-light h2 " title="change name">WhatsApp User</div>
+        <div class="text-light pt-1  ml-4 h6" id="typing"> typing 
+            <div id="dot1"></div>
+            <div id="dot2"></div>
+            <div id="dot1"></div>
+            <div id="dot2"></div>
+            <div id="dot1"></div>
+            <div id="dot2"></div>
+        </div>
+        
+     </div>   
+     <button class="navbar-toggler bg-light pr-4" title="show setting" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-success"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-light mr-3 bg-dark">
+          <a class="nav-item nav-link active text-light gap-2" href="#"><i class="fa fa-phone  " aria-hidden="true"></i>Call<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link text-light" href="#"><i class="fa fa-video-camera " aria-hidden="true"></i>Video Call</a>
+          <a class="nav-item nav-link text-light" href="#"><i class="fa fa-cog" aria-hidden="true"></i>Settting</a>
+          <a class="nav-item nav-link disabled text-secondary" href="#">new Setting</a>
+        </div>
+      </div>
+      
+
+
+    </div>
+    
+ 
+<div class="msg-box">
+    <ul>
+
+    </ul>
+
+</div>
+<p class="para"></p>
+
+
+<div class="d-flex justify-content-center align-items-center">    
+    <div class="d-flex gap-2"><i title="select emoji" class="fa-solid fa-face-smile-beam text-warning display-3 "></i><input type="text" class=" px-4 " placeholder=" type Message here...">
+    <button onclick="input()" title=" send msg" class="text-success bg-dark h3 p-2 rounded" id="send" ><i class="fa-solid fa-share"></i></button>
+    <button class="clear text-danger bg-dark h3 p-2 rounded " title="clear all msg"><i class="fa fa-trash " aria-hidden="true"></i></button></div>
+</div>
+    </div>    
+            
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+   <script src="script.js" ></script>
+</body>
+</html>

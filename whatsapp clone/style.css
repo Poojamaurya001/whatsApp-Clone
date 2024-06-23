@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.navbar
+{
+    background-color: rgb(4, 136, 23);
+    filter: drop-shadow(20px 20px 20px rgb(9, 9, 9));
+   
+}
+
+h2
+{
+    color:antiquewhite;
+    font-size: 3.125rem;
+    font-weight: 31.25rem;
+    margin-left:6.875rem;
+    margin-top: 0.625rem;
+}
+.img
+{
+    height: 6.25rem;
+    width: 6.25rem;
+    border-top: 10px solid blue ;
+    border-bottom: 10px solid blue ;
+    overflow: hidden;
+    border-radius: 50%;
+    animation:round 2s infinite;
+    position: relative;
+    display: inline;
+}
+#bg-img{
+    background: url("https://i.pinimg.com/474x/58/03/08/58030840ebfe85a3b79745edb3be3831.jpg");
+}
+p{
+    color: blue;
+    font-size: 12px;
+}
+img{
+    margin-left: 0.3125rem;
+    margin-top: 0.3125rem;
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 50%;
+   
+    display: inline;
+}
+title{
+    background-color: black;
+    color: blanchedalmond;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#typing
+{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: row;
+    margin-left:10px;
+    
+    
+}
+#dot2
+{
+    margin-left: 0.625rem;
+    height: 1rem;
+    width:1rem;
+    border-radius: 60%;
+    background-color: rgb(239, 246, 246);
+    filter: drop-shadow(10px 10px 10px rgb(8, 5, 5));
+    animation:bounce1 1s infinite ;
+}
+#dot1
+{
+    margin: 0.625em;;
+    height: 1rem;
+    width:1rem;
+    border-radius: 60%;
+    background-color: rgb(226, 237, 237);
+    filter: drop-shadow(10px 10px 10px rgb(5, 5, 5));
+    animation:bounce 2s infinite ;
+}
+@keyframes bounce
+{
+    0%,100%{transform: translateY(10);}
+    50%{transform:translatey(-30px)}
+}
+@keyframes bounce1
+{
+    0%,100%{transform: translateY(10);}
+    80%{transform:translatey(-15px)}
+}
+
+.msg
+{
+    margin-top: 0.625rem;
+    border: 2px solid black;
+     height:12.5rem;
+     color: black;
+    width:150px;
+    background-color: azure;
+    -webkit-clip-path: polygon(0 50%, 100% 48%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0 79%);
+clip-path: polygon(0 50%, 100% 48%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0 79%);
+}
+.msg-box{
+    height: 90vh;
+    width: 100vw;
+    background-color:transparent; 
+    position: relative;
+}
+.msg-box ul{
+    margin-top:26vh;
+    font-size: 1.5625rem;
+    position: absolute;
+    font-style:normal;
+    list-style:" ";
+}
+ul{
+    font-style: none;
+}
+.msg-box li{
+    color: rgb(2, 2, 2);
+    font-size: 1.875rem;
+    border-radius: 0.625rem;
+    margin: 2vh;
+    
+}
+
