@@ -6,4 +6,4 @@ Hello Everyone 👋
 - Showcased adaptability and proficiency in web development by creating a dynamic and interactive application.
 
 Watch Live
-💣https://lnkd.in/gYw-U7xE
+💣https://spontaneous-cucurucho-ad93bd.netlify.app/
